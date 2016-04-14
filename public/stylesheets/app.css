@@ -1,0 +1,72 @@
+header {
+	background-color: #244751;
+	color: #E8FDFF;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+main {
+background-color: white;
+padding: 16px;
+}
+
+.post {
+margin-bottom: 48px;
+}
+
+
+.post .user-info img {
+	border-radius: 50px;
+}
+
+.photo:hover {
+border: 3px solid purple;
+	}
+
+.photo:active {
+border: 7px solid blue;
+	}
+
+.photo:visited {
+color: purple;
+}   
+
+form {
+	padding-left: 20px;
+}
+
+input.error-field {
+	border: 1px solid red;
+	color: red;
+}
+
+.form-group input {
+width: 100%;
+}
+
+header h1 {
+	margin-left: 1em;
+}
+
+.login-info {
+margin-right: 1em;
+
+}
+
+/*this will make the screen change when it gets to a certain width
+*/
+
+
+@media(max-width: 450px){
+	header {
+		background-color: red;
+	}
+}
+@media(min-width: 600px, max-width: 450px){
+	header{
+		background-color: pink;
+	}
+}
+

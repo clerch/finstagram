@@ -8,6 +8,7 @@ body, input {
   color: #244751;
 }
 
+
 a {
   color: #8da7b8;
   text-decoration: none;
@@ -33,6 +34,16 @@ header {
 
 header > .login-info {
   margin-left: auto;
+
+}
+
+.header-link {
+  color: white;
+}
+
+//added by foulger it hits login
+.login-info a:first-child {
+  color: purple;
 }
 
 main {
@@ -119,3 +130,4 @@ main {
 .new-comment input[type="text"] {
   width: 100%;
 }
+
